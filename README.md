@@ -1,23 +1,94 @@
-# Natural Language Processing 💬
-## Description
-This project was made for the Natural Language Processing (NLP) course at the AGH UST in 2024/2025. All solutions are results of my work after hours, when I was solving given tasks (topics).
-All tasks are provided by <a href="https://github.com/apohllo/nlp">apohllo</a>. Be mindful that these tasks are regularly updated and may vary in the future.
-## Exercises and Topics
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab1/lab1_regexp.ipynb">1. Regular expressions</a><br>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab2/lab2_fts.ipynb">2. Full text search</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab3/lab3_levenshtein.ipynb">3. Levenshtein distance</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab4/lab4_lm.ipynb">4. Language modelling</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab5/lab5_classification.ipynb">5. Classification</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab6/lab6_ner.ipynb">6. Named entity recognition</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab7/lab7_clsssification_ner_llm.ipynb">7. Classification and NER with LLMs</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab8/lab8_neural.ipynb">8. Neural Search</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab9/lab9_qa.ipynb">9. Question Answering</a>
-### <a href="https://github.com/bjam24/agh-natural-language-processing/blob/main/Lab10/lab10_rag.ipynb">10. RAG</a>
-## Technology stack
+# Natural Language Processing
+
+A collection of Natural Language Processing projects completed as part of the NLP course at AGH University of Science and Technology.
+
+The repository covers classical NLP methods, information retrieval, machine learning, transformer-based models, Large Language Models and Retrieval-Augmented Generation.
+
+## Academic Context
+
+The exercise topics and task requirements were provided as part of the NLP course. All implementations, experiments and solutions presented in this repository are my own work.
+
+## Topics
+
+1. [Regular Expressions](01-regular-expressions)
+2. [Full-Text Search](02-full-text-search)
+3. [Levenshtein Distance](03-levenshtein-distance)
+4. [Language Modelling](04-language-modelling)
+5. [Text Classification](05-text-classification)
+6. [Named Entity Recognition](06-named-entity-recognition)
+7. [Classification and NER with LLMs](07-llm-classification-ner)
+8. [Neural Search](08-neural-search)
+9. [Question Answering](09-question-answering)
+10. [Retrieval-Augmented Generation](10-rag)
+
+## Technology Stack
+
 - Python
-- NumPy, Pandas
+- NumPy
+- Pandas
 - Scikit-learn
-- ElasticSearch
-- Hugging Face Transformers
-- SpaCy
-- NLTK
+- SciPy
+- Matplotlib
+- Seaborn
+- Elasticsearch
+- spaCy
+- Hugging Face Transformers and Datasets
+- LangChain
+- ChromaDB
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/bjamiolkowski/agh-natural-language-processing.git
+cd agh-natural-language-processing
+```
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Linux / macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Repository Structure
+
+```text
+agh-natural-language-processing/
+├── 01-regular-expressions/
+├── 02-full-text-search/
+├── 03-levenshtein-distance/
+├── 04-language-modelling/
+├── 05-text-classification/
+├── 06-named-entity-recognition/
+├── 07-llm-classification-ner/
+├── 08-neural-search/
+├── 09-question-answering/
+├── 10-rag/
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+
+## License
+
+This repository is available under the MIT License.
